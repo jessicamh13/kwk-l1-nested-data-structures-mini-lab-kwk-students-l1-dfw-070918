@@ -12,7 +12,7 @@ def sandwich_request(ingredients, order)
   
 end
 
-puts sandwich_request(ingredients, ["rye", "tofu", "cheddar"])
+return sandwich_request(ingredients, ["rye", "tofu", "cheddar"])
 
 # example city_info hash
 cities = {
