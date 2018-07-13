@@ -1,18 +1,17 @@
 # example ingredients array
-ingredients = [
+
+
+
+def sandwich_request(ingredients, order) 
+  ingredients = [
     ["rye", "sourdough", "baguette"],
     ["ham", "salami", "turkey"],
     ["swiss", "munster", "cheddar"],
     ["mayo", "mustard", "tabasco"]
 ]
-
-
-
-def sandwich_request(ingredients, order) 
-  
 end
 
-return sandwich_request(ingredients, ["rye", "tofu", "cheddar"])
+sandwich_request(ingredients, ["rye", "tofu", "cheddar"])
 
 # example city_info hash
 cities = {
